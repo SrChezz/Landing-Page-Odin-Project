@@ -1,0 +1,165 @@
+:root {
+    font-size: 18px;
+    font-family: sans-serif;
+
+    --dark-background: #1F2937;
+    --light-background: #E5E7EB;
+    --lighter-background: #383838;
+
+    --blue-color: #2882F6;
+
+    --link-text: #E5E7EB;
+}
+
+body {
+    margin: 0px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3 {
+    margin: 10px auto;
+}
+
+a {
+    color: var(--link-text);
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    color: #f9faf8;
+    padding: 10px 10%;
+    flex: 1 1 auto;
+    background-color: var(--dark-background);
+    gap: 15px;
+}
+
+header span:first-child {
+    font-size: 24px;
+    margin-right: auto;
+    font-weight: bold;
+    
+}
+
+header span {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.first-section {
+    background-color: var(--dark-background);
+}
+
+.first-section > div {
+    margin: auto;
+    max-width: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: white;
+    padding: 60px 10%;
+    gap: 40px;
+    max-height: 700px;
+}
+
+.first-section > div > * {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.first-section figure {
+    margin: 0px;
+    padding: 0px;
+}
+
+.first-section h1{
+    font-weight: 900;
+    font-size: 48px;
+    margin: 5px auto;
+}
+
+.first-section a {
+    background-color: var(--blue-color);
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.information-section {
+    padding: 50px 25px;
+    text-align: center;
+}
+
+.information-section h2 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info-container {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    gap: 15px;
+
+}
+
+.info-container > div {
+    
+}
+
+.quote-section {
+    background-color: var(--light-background);
+}
+
+.quote-section > div {
+    max-width: 600px;
+    margin: auto;
+    padding: 40px;
+}
+.quote-section .quote {
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.quote-section .quote-author {
+    text-align: right;
+}
+
+.action-section {
+    box-sizing: border-box;
+    padding: 60px 10%;
+    color: white;
+}
+
+.action-section > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--blue-color); 
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.action-section a {
+    background-color: var(--blue-color);
+    font-weight: bold;
+    padding: 8px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--dark-background);
+    color: white;
+    padding: 10px;
+}
